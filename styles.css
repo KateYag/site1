@@ -1,0 +1,525 @@
+@font-face {
+    font-family: "Passions";
+    src: url("/fonts/PassionsConflictRUS-Regular.otf");
+}
+
+@font-face {
+    font-family: "Capitalist";
+    src: url("/fonts/Capitalist.ttf");
+}
+
+@font-face {
+    font-family: "DolomanPavljenko";
+    src: url("/fonts/DolomanPavljenko.otf");
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff9fe;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.title {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+.wave-text {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    width: 100%;
+    color:  #cd050f;
+    font-size: 10vw;
+    font-weight: bold;
+
+}
+
+.letter {
+    display: inline-block;
+    transform: translate(var(--x, 0), var(--y, 0)) rotate(var(--angle, 0deg));
+}
+
+.space {
+    display: inline-block;
+    width: 1.5vw;
+}
+.name {
+    font-family: "Passions", sans-serif;
+    font-size: 160px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.main {
+    position: relative;
+}
+.main .main-info {
+    width: 80%;
+    margin-left: 240px;
+    text-align: left;
+}
+
+.main .main-info p{
+    font-size: 55px;
+    font-family: "DolomanPavljenko", sans-serif;
+
+}
+.main .main-info h1{
+    font-family: "Capitalist", sans-serif;
+    font-size: 120px;
+    color: #cd050f;
+    margin: 20px 0 20px 0;
+
+}
+
+.main-image-left {
+    position: absolute;
+    top: 220px;
+    left: 20px;
+}
+
+.main-image-left img {
+    position: relative;
+    width: 350px;
+}
+
+.main-image-left p {
+    font-family: "Passions", sans-serif;
+    font-size: 55px;
+    position: absolute;
+    top: 410px;
+    left: 320px;
+    width: 300px;
+    color: #9f9c9e;
+    rotate: -15deg;
+}
+.main-image-right {
+    position: absolute;
+    top: 390px;
+    right: 20px;
+}
+
+.main-image-right img {
+    position: relative;
+    width: 300px;
+}
+
+.main-image-right p {
+    font-family: "Passions", sans-serif;
+    font-size: 55px;
+    position: absolute;
+    top: 210px;
+    right: 190px;
+    color: #9f9c9e;
+    rotate: -15deg;
+    width: 300px;
+}
+
+
+.location {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.location .container {
+    display: flex;
+position: relative;
+    justify-content: space-around;
+
+}
+
+.location-info {
+    max-width: 600px;
+}
+.location-info h3{
+    font-size: 65px;
+    font-family: "DolomanPavljenko", sans-serif;
+}
+.location-info h4{
+    font-size: 35px;
+    font-family: "Capitalist", sans-serif;
+    color: #cd050f;
+    margin: 20px 0 20px 0;
+    font-weight: normal;
+}
+.location-info p{
+    font-size: 35px;
+    font-family: "DolomanPavljenko", sans-serif;
+    margin-bottom: 50px;
+}
+.location-info a {
+    text-decoration: none;
+    outline: none;
+    color: black;
+    border: 3px solid #cd050f;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.location-images .butilka {
+    position: absolute;
+    width: 230px;
+    top: -12px;
+    right: 30%;
+}
+.location-images .bokal1 {
+    position: absolute;
+    width: 175px;
+    top: 25px;
+    right: 17%;
+}
+.location-images .bokal2 {
+    position: absolute;
+    width: 155px;
+    top: 79px;
+    right: 25%;
+}
+.program {
+    position: relative;
+}
+.wave {
+    position: absolute;
+    z-index: -1;
+    left: 13%;
+    top: 23%;
+}
+.program .wave-text {
+
+    color: rgba(252,236,242);
+}
+.program .wave-text.two, .wave-text.three {
+    margin-top: -64px;
+}
+.program-title {
+    font-family: "DolomanPavljenko", sans-serif;
+    font-size: 55px;
+    color: #cd050f;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    width: 2px;
+    height: 79%;
+    background-color: #cd050f;
+    transform: translateX(-50%);
+}
+.event {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+}
+.time {
+    font-size: 55px;
+    font-family: "DolomanPavljenko", sans-serif;
+    font-weight: bold;
+    text-align: right;
+    width: 80px;
+}
+.time.first {
+    margin-left: 54px;
+}
+.time.second {
+    margin-left: 177px;
+}
+.time.three {
+    margin-left: -38px;
+}
+.time.four {
+    margin-left: 209px;
+}
+.dot {
+    width: 14px;
+    height: 14px;
+    background-color: #cd050f;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.description {
+    font-family: "DolomanPavljenko", sans-serif;
+    font-size: 40px;
+    margin-left: 120px;
+}
+
+.description.four{
+    margin-left: 120px;
+}
+
+
+.dresscode {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.dresscode-title {
+    font-family: "DolomanPavljenko", sans-serif;
+    font-size: 55px;
+    color: #cd050f;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.dresscode-info {
+    display: flex;
+    justify-content: space-between;
+
+}
+.dresscode-info-text {
+    font-family: "DolomanPavljenko", sans-serif;
+    font-size: 40px;
+    max-width: 555px;
+}
+.dresscode-info-image {
+    display: flex;
+    gap: 20px;
+}
+
+.heart1, .heart2 {
+    width: 100px;
+    height: 100px;
+}
+.heart1, .heart2, .heart3 {
+    animation: pulse 5s infinite ease-in-out;
+}
+.heart3 {
+    width: 120px;
+    height: 120px;
+}
+
+.heart-wrapper1, .heart-wrapper2,
+.heart-wrapper3 {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.heart-wrapper1 {
+    background-color: #cd050f;
+    border: 1px solid #cd050f;
+}
+.heart-wrapper2 {
+    border: 1px solid black;
+}
+.heart-wrapper3 {
+    background-color: black;
+    border: 1px solid black;
+}
+
+.organizer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.organizer-text {
+    font-family: "DolomanPavljenko", sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.organizer-title {
+    font-family: "DolomanPavljenko", sans-serif;
+    font-size: 55px;
+    color: #cd050f;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.organizer-name {
+    font-family: "DolomanPavljenko", sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.organizer a {
+    text-decoration: none;
+    outline: none;
+    color: black;
+    border: 1px solid #cd050f;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+   margin: 39%;
+}
+.organizer a:hover {
+    text-decoration: none;
+    outline: none;
+    color: white;
+    border: 1px solid #cd050f;
+    background-color: #cd050f;
+}
+.wishes {
+    padding-bottom: 100px;
+}
+.wishes-title {
+    font-family: "DolomanPavljenko", sans-serif;
+    font-size: 55px;
+    color: #cd050f;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.wishes-text {
+    font-family: "DolomanPavljenko", sans-serif;
+    font-size: 40px;
+}
+
+.presence {
+    padding-bottom: 100px;
+}
+.presence-title {
+    font-family: "DolomanPavljenko", sans-serif;
+    font-size: 55px;
+    color: #cd050f;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.presence-text {
+    font-family: "DolomanPavljenko", sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+
+.wedding-form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #cd050f;
+    border-radius: 10px;
+    background:  #fff9fe;
+    font-size: 30px;
+    font-family: "DolomanPavljenko", sans-serif;
+
+    fieldset {
+        border: none;
+        margin-bottom: 15px;
+    }
+
+    legend {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    label {
+        display: block;
+        margin: 5px 0;
+    }
+
+    input[type="text"],
+    textarea {
+        width: 90%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    textarea {
+        min-height: 100px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background: #cd050f;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+
+        &:hover {
+            background: #a0040c;
+        }
+    }
+}
+
+.timout-title {
+    font-family: "DolomanPavljenko", sans-serif;
+    font-size: 55px;
+    color: #cd050f;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-family: "DolomanPavljenko", sans-serif;
+}
+
+.time-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.time-box span {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.time-box p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}

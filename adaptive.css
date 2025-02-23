@@ -1,0 +1,288 @@
+
+@media (max-width: 360px) {
+    .container {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .wave-text {
+        font-size: 15vw;
+
+    }
+
+    .name {
+        font-size: 56px;
+        margin-bottom: 40px;
+    }
+
+    .main .main-info {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .main .main-info p{
+        font-size: 30px;
+    }
+    .main .main-info h1{
+        font-size: 30px;
+        margin: 200px 67px 36px 0
+    }
+    .main-image-left {
+        top: 322px;
+        left: 2px;
+    }
+    .main-image-right {
+        top: 415px;
+        right: -3px;
+    }
+    .main-image-left img {
+        width: 160px;
+    }
+    .main-image-right img {
+        width: 110px;
+    }
+    .main-image-left p {
+        font-size: 36px;
+        position: absolute;
+        top: -27px;
+        left: 157px;
+    }
+    .main-image-right p {
+        font-size: 36px;
+        top: 116px;
+        left: -125px;
+        rotate: -7deg;
+    }
+    .location {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .location .container {
+        flex-direction: column;
+    }
+    .location-info h3{
+        font-size: 44px;
+    }
+    .location-info h4{
+        font-size: 28px;
+        text-align: center;
+    }
+    .location-info p{
+        font-size: 30px;
+        text-align: center;
+    }
+    .location-info a {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .location-images .butilka {
+        display: none;
+    }
+    .location-images .bokal1 {
+        width: 68px;
+        top: 244px;
+        right: -7px;
+    }
+    .location-images .bokal2 {
+        width: 62px;
+        top: 271px;
+        right: 82%;
+    }
+    .program {
+
+    }
+    .program .wave-text.two, .wave-text.three {
+        margin-top: -64px;
+    }
+    .program-title {
+        font-size: 33px;
+        margin-top: 45px;
+    }
+    .timeline {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    .timeline::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 15px;
+        width: 2px;
+        height: 79%;
+        background-color: #cd050f;
+        transform: translateX(-50%);
+    }
+    .event {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .time {
+        font-size: 40px;
+        font-family: "DolomanPavljenko", sans-serif;
+        font-weight: bold;
+    }
+    .time.first {
+        margin-left: 20px;
+    }
+    .time.second {
+        margin-left: 30px;
+    }
+    .time.three {
+        margin-left: -20px;
+    }
+    .time.four {
+        margin-left: 36px;
+    }
+    .dot {
+        width: 14px;
+        height: 14px;
+        background-color: #cd050f;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .description {
+        font-family: "DolomanPavljenko", sans-serif;
+        font-size: 24px;
+        margin-left: 95px;
+    }
+    .description.four{
+        margin-left: 95px;
+    }
+    .description.five{
+        margin-left: 91px;
+    }
+
+
+    .dresscode {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .dresscode-title {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+    .dresscode-info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    .dresscode-info-text {
+        font-size: 30px;
+        text-align: center;
+    }
+    .dresscode-info-image {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .heart1, .heart2 {
+        width: 50px;
+        height: 50px;
+    }
+    .heart3 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .heart-wrapper1, .heart-wrapper2,
+    .heart-wrapper3 {
+        width: 70px;
+        height: 70px;
+
+
+    }
+
+
+    .organizer {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .organizer-text {
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .organizer-title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .organizer-name {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .organizer a {
+        padding: 10px;
+        font-size: 22px;
+        margin: 20%;
+    }
+
+    .wishes {
+        padding-bottom: 100px;
+    }
+    .wishes-title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .wishes-text {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .presence {
+        padding-bottom: 30px;
+    }
+    .presence-title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .presence-text {
+        font-size: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+
+
+
+    .wedding-form {
+        font-size: 28px;
+
+    }
+
+    .wedding-form {
+        input[type="text"], textarea {
+
+            margin-top: 15px;
+        }
+    }
+    .timout-title {
+        font-size: 36px;
+    }
+
+    #countdown {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+    .time-box span {
+        font-size: 30px;
+    }
+
+}
