@@ -15,6 +15,7 @@
     font-style: normal;
 }
 
+
 @font-face {
     font-family: "DolomanPavljenko";
     src: url("/fonts/DolomanPavljenko.otf");
@@ -68,7 +69,7 @@ body {
     width: 1.5vw;
 }
 .name {
-    font-family: "Passions", sans-serif;
+    font-family: "Great Vibes", sans-serif;
     font-size: 160px;
     text-align: center;
     margin-bottom: 100px;
@@ -107,7 +108,7 @@ body {
 }
 
 .main-image-left p {
-    font-family: "Passions", sans-serif;
+    font-family: "Great Vibes", sans-serif;
     font-size: 55px;
     position: absolute;
     top: 410px;
@@ -128,7 +129,7 @@ body {
 }
 
 .main-image-right p {
-    font-family: "Passions", sans-serif;
+    font-family: "Great Vibes", sans-serif;
     font-size: 55px;
     position: absolute;
     top: 210px;

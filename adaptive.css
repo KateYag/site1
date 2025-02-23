@@ -11,7 +11,7 @@
     }
 
     .name {
-        font-size: 56px;
+        font-size: 44px;
         margin-bottom: 40px;
         margin-top: 100px;
     }
@@ -50,9 +50,10 @@
     }
     .main-image-right p {
         font-size: 36px;
-        top: 116px;
-        left: -125px;
+        top: 111px;
+        left: -188px;
         rotate: -7deg;
+        width: 274px;
     }
     .location {
         padding-top: 50px;
@@ -90,6 +91,10 @@
         width: 62px;
         top: 271px;
         right: 82%;
+    }
+    .program {
+        width: 400px;
+        margin: 0 auto;
     }
     .program .wave{
         display: none;
@@ -134,13 +139,13 @@
         margin-left: 20px;
     }
     .time.second {
-        margin-left: 92px;
+        margin-left: 68px;
     }
     .time.three {
         margin-left: -29px;
     }
     .time.four {
-        margin-left: 115px;
+        margin-left: 72px;
     }
     .dot {
         width: 14px;
@@ -247,6 +252,9 @@
 
     .presence {
         padding-bottom: 30px;
+    }
+    .presence .container{
+       max-width: 400px;
     }
     .presence-title {
         font-size: 36px;
