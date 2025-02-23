@@ -1,17 +1,19 @@
 
-@media (max-width: 360px) {
+@media (max-width: 500px) {
     .container {
         max-width: 300px;
         margin: 0 auto;
     }
     .wave-text {
         font-size: 15vw;
+        padding-top: 100px;
 
     }
 
     .name {
         font-size: 56px;
         margin-bottom: 40px;
+        margin-top: 100px;
     }
 
     .main .main-info {
@@ -89,8 +91,8 @@
         top: 271px;
         right: 82%;
     }
-    .program {
-
+    .program .wave{
+        display: none;
     }
     .program .wave-text.two, .wave-text.three {
         margin-top: -64px;
@@ -132,13 +134,13 @@
         margin-left: 20px;
     }
     .time.second {
-        margin-left: 30px;
+        margin-left: 92px;
     }
     .time.three {
-        margin-left: -20px;
+        margin-left: -29px;
     }
     .time.four {
-        margin-left: 36px;
+        margin-left: 115px;
     }
     .dot {
         width: 14px;
