@@ -26,15 +26,15 @@
     }
     .main .main-info h1{
         font-size: 30px;
-        margin: 200px 67px 36px 0
+        margin: 64vw 16vw 18vw -7vw
     }
     .main-image-left {
-        top: 322px;
-        left: 2px;
+        top: 98vw;
+        left: 3vw;
     }
     .main-image-right {
-        top: 415px;
-        right: -3px;
+        top: 133vw;
+        right: -1vw;
     }
     .main-image-left img {
         width: 160px;
@@ -45,15 +45,15 @@
     .main-image-left p {
         font-size: 36px;
         position: absolute;
-        top: -27px;
-        left: 157px;
+        top: -19vw;
+        left: 46vw;
     }
     .main-image-right p {
         font-size: 36px;
         top: 111px;
         left: -188px;
         rotate: -7deg;
-        width: 274px;
+        width: 124vw;
     }
     .location {
         padding-top: 50px;
@@ -83,17 +83,18 @@
         display: none;
     }
     .location-images .bokal1 {
-        width: 68px;
-        top: 244px;
-        right: -7px;
+        width: 19vw;
+        top: 82vw;
+        right: -3%;
     }
     .location-images .bokal2 {
-        width: 62px;
-        top: 271px;
+        width: 19vw;
+        top: 82vw;
         right: 82%;
     }
     .program {
-        width: 400px;
+        /*width: 400px;*/
+        width: 81vw;
         margin: 0 auto;
     }
     .program .wave{
