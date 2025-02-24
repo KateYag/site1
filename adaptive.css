@@ -1,12 +1,13 @@
 
-@media (max-width: 500px) {
+@media (max-width: 426px) {
     .container {
-        max-width: 300px;
+        max-width: 400px;
         margin: 0 auto;
     }
     .wave-text {
         font-size: 15vw;
         padding-top: 100px;
+        padding-left: 20px;
 
     }
 
@@ -26,15 +27,16 @@
     }
     .main .main-info h1{
         font-size: 30px;
-        margin: 64vw 16vw 18vw -7vw
+        margin: 214px 0 70px -134px;
+        letter-spacing: 5px;
     }
     .main-image-left {
-        top: 98vw;
-        left: 3vw;
+        top: -190px;
+        left: 233px;
     }
     .main-image-right {
-        top: 133vw;
-        right: -1vw;
+        top: -72px;
+        right: -5px;
     }
     .main-image-left img {
         width: 160px;
@@ -42,30 +44,36 @@
     .main-image-right img {
         width: 110px;
     }
-    .main-image-left p {
-        font-size: 36px;
+    .main .main-info .main-image-left p {
+        font-size: 28px;
         position: absolute;
-        top: -19vw;
-        left: 46vw;
+        top: -18px;
+        left: 164px;
+        rotate: -12deg;
+        font-weight: normal;
+        display: inline-block;
+        letter-spacing: 0;
     }
-    .main-image-right p {
-        font-size: 36px;
-        top: 111px;
-        left: -188px;
+    .main .main-info .main-image-right p {
+        font-size: 28px;
+        top: 127px;
+        font-weight: normal;
+        display: inline-block;
+        left: -147px;
         rotate: -7deg;
-        width: 124vw;
+        letter-spacing: 0;
     }
     .location {
         padding-top: 50px;
         padding-bottom: 50px;
-        padding-right: 20px;
-        padding-left: 20px;
+       text-align: center;
     }
     .location .container {
         flex-direction: column;
     }
     .location-info h3{
         font-size: 44px;
+        text-align: center;
     }
     .location-info h4{
         font-size: 28px;
@@ -78,19 +86,21 @@
     .location-info a {
         font-size: 20px;
         margin-left: 30px;
+        position: relative;
+        display: inline-block;
     }
     .location-images .butilka {
         display: none;
     }
     .location-images .bokal1 {
-        width: 19vw;
-        top: 82vw;
-        right: -3%;
+        width: 65px;
+        top: -26px;
+        right: -42px;
     }
     .location-images .bokal2 {
-        width: 19vw;
-        top: 82vw;
-        right: 82%;
+        width: 65px;
+        top: -20px;
+        right: 193px;
     }
     .program {
         /*width: 400px;*/
@@ -111,6 +121,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 0;
         position: relative;
     }
     .timeline::before {
@@ -126,27 +137,28 @@
     .event {
         display: flex;
         align-items: center;
-        justify-content: center;
-        width: 100%;
+        gap: 20px;
+        width: 75%;
         position: relative;
-        margin-bottom: 30px;
     }
     .time {
         font-size: 40px;
         font-family: "DolomanPavljenko", sans-serif;
         font-weight: bold;
+        width: 10px;
+        text-align: right;
     }
     .time.first {
-        margin-left: 20px;
+margin-left: 0;
     }
     .time.second {
-        margin-left: 68px;
+        margin-left: 0;
     }
     .time.three {
-        margin-left: -29px;
+        margin-left: 0;
     }
     .time.four {
-        margin-left: 72px;
+        margin-left: 0;
     }
     .dot {
         width: 14px;
@@ -155,18 +167,18 @@
         border-radius: 50%;
         position: absolute;
         left: 50%;
+        flex-shrink: 0;
         transform: translateX(-50%);
     }
     .description {
         font-family: "DolomanPavljenko", sans-serif;
         font-size: 24px;
-        margin-left: 95px;
+        flex-grow: 1;
+        text-align: left;
     }
     .description.four{
-        margin-left: 95px;
     }
     .description.five{
-        margin-left: 91px;
     }
 
 
@@ -217,6 +229,7 @@
     .organizer {
         padding-top: 30px;
         padding-bottom: 50px;
+        text-align: center;
     }
     .organizer-text {
         font-size: 30px;
@@ -235,7 +248,10 @@
     .organizer a {
         padding: 10px;
         font-size: 22px;
-        margin: 20%;
+        margin: 0;
+    }
+    .wedding-form .des {
+        font-size: 20px;
     }
 
     .wishes {
@@ -296,4 +312,202 @@
         font-size: 30px;
     }
 
+}
+
+
+@media (max-width: 376px) {
+    .container {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+
+    .main .main-info .main-image-left p {
+        font-size: 20px;
+        top: -18px;
+        left: 142px;
+    }
+    .main .main-info .main-image-right p {
+        font-size: 20px;
+        top: 125px;
+        left: -100px;
+    }
+
+    .main .main-info h1{
+        font-size: 30px;
+        margin: 214px 0 70px -75px;
+        letter-spacing: 5px;
+    }
+
+    .main-image-left {
+        top: -196px;
+        left: 152px;
+    }
+
+    .main .main-info p{
+        font-size: 24px;
+    }
+
+    .location-info h3{
+        font-size: 36px;
+    }
+    .location-info h4{
+        font-size: 24px;
+    }
+    .location-info p{
+        font-size: 24px;
+    }
+    .location-info a {
+        font-size: 16px;
+    }
+
+
+    .location-images .bokal2 {
+        width: 56px;
+        top: -20px;
+        right: 163px;
+    }
+    .time {
+        font-size: 36px;
+    }
+    .event {
+        width: 82%;
+    }
+
+    .dresscode-info-text {
+        font-size: 24px;
+    }
+    .dresscode-title {
+        font-size: 33px;
+    }
+
+    .organizer-title {
+        font-size: 33px;
+    }
+
+    .organizer-text {
+        font-size: 24px;
+    }
+    .wishes-title {
+        font-size: 33px;
+    }
+    .wishes-text {
+        font-size: 24px;
+    }
+
+    .presence-title {
+        font-size: 33px;
+    }
+
+    .presence-text {
+        font-size: 24px;
+    }
+}
+@media (max-width: 321px) {
+    .container {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .main-image-left img {
+        width: 125px;
+    }
+
+    .main .main-info .main-image-left p {
+        font-size: 20px;
+        top: -18px;
+        left: 142px;
+    }
+    .main .main-info .main-image-right p {
+        font-size: 20px;
+        top: 125px;
+        left: -100px;
+    }
+
+    .main .main-info h1{
+        font-size: 24px;
+        margin: 175px 0 70px -75px;
+        letter-spacing: 5px;
+    }
+
+    .main-image-left {
+        top: -162px;
+        left: 152px;
+    }
+    .main-image-right img {
+        width: 101px;
+    }
+
+    .main .main-info p{
+        font-size: 22px;
+    }
+
+    .location-info h3{
+        font-size: 32px;
+    }
+    .location-info h4{
+        font-size: 22px;
+    }
+    .location-info p{
+        font-size: 22px;
+    }
+    .location-info a {
+        font-size: 14px;
+    }
+    .program-title {
+        font-size: 29px;
+    }
+
+    .location-images .bokal2 {
+        width: 56px;
+        top: -20px;
+        right: 163px;
+    }
+    .time {
+        font-size: 28px;
+        width: 45px;
+    }
+
+    .timeline::before {
+        top: 17px;
+        height: 74%;
+    }
+    .dot {
+        left: 46.5%;
+    }
+    .event {
+        width: 110%;
+        margin-left: 20px;
+    }
+    .time.four {
+        margin-left: 10px;
+    }
+
+    .dresscode-info-text {
+        font-size: 22px;
+    }
+    .dresscode-title {
+        font-size: 32px;
+    }
+
+    .organizer-title {
+        font-size: 32px;
+    }
+
+    .organizer-text {
+        font-size: 22px;
+    }
+    .wishes-title {
+        font-size: 32px;
+    }
+    .wishes-text {
+        font-size: 22px;
+    }
+
+    .presence-title {
+        font-size: 32px;
+    }
+
+    .presence-text {
+        font-size: 22px;
+    }
 }

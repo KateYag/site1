@@ -75,7 +75,7 @@ body {
     margin-bottom: 100px;
 }
 .main {
-    position: relative;
+
 }
 .main .main-info {
     width: 80%;
@@ -93,6 +93,7 @@ body {
     font-size: 120px;
     color: #cd050f;
     margin: 20px 0 20px 0;
+    position: relative;
 
 }
 
@@ -107,15 +108,15 @@ body {
     width: 350px;
 }
 
-.main-image-left p {
+.main .main-info .main-image-left p {
     font-family: "Great Vibes", sans-serif;
     font-size: 55px;
     position: absolute;
     top: 410px;
     left: 320px;
-    width: 300px;
     color: #9f9c9e;
     rotate: -15deg;
+    white-space: nowrap;
 }
 .main-image-right {
     position: absolute;
@@ -128,7 +129,7 @@ body {
     width: 300px;
 }
 
-.main-image-right p {
+.main .main-info .main-image-right p {
     font-family: "Great Vibes", sans-serif;
     font-size: 55px;
     position: absolute;
@@ -136,7 +137,7 @@ body {
     right: 190px;
     color: #9f9c9e;
     rotate: -15deg;
-    width: 300px;
+    white-space: nowrap;
 }
 
 
@@ -147,7 +148,6 @@ body {
 
 .location .container {
     display: flex;
-position: relative;
     justify-content: space-around;
 
 }
