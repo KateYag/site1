@@ -90,6 +90,7 @@ body {
 }
 .main .main-info h1{
     font-family: "Pattaya", sans-serif;
+    font-display: swap;
     font-size: 120px;
     color: #cd050f;
     margin: 20px 0 20px 0;

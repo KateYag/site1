@@ -105,7 +105,7 @@
     }
     .program {
         /*width: 400px;*/
-        width: 81vw;
+        width: 400px;
         margin: 0 auto;
     }
     .program .wave{
@@ -119,10 +119,15 @@
         margin-top: 45px;
     }
     .timeline {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 0;
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*align-items: center;*/
+        /*gap: 0;*/
+        /*position: relative;*/
+        display: grid;
+        gap: 20px;
+        max-width: 400px;
+        margin: 0 auto;
         position: relative;
     }
     .timeline::before {
@@ -136,18 +141,32 @@
         transform: translateX(-50%);
     }
     .event {
-        display: flex;
-        align-items: center;
+        /*display: flex;*/
+        /*align-items: center;*/
+        /*gap: 20px;*/
+        /*width: 75%;*/
+        /*position: relative;*/
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
         gap: 20px;
-        width: 75%;
-        position: relative;
+    }
+     .description {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .time {
-        font-size: 40px;
-        font-family: "DolomanPavljenko", sans-serif;
-        font-weight: bold;
-        width: 10px;
-        text-align: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .time {
+        font-size: 30px;
+        font-weight: normal;
     }
     .time.first {
 margin-left: 0;
@@ -168,19 +187,17 @@ margin-left: 0;
         border-radius: 50%;
         position: absolute;
         left: 50%;
-        flex-shrink: 0;
         transform: translateX(-50%);
+
     }
     .description {
-        font-family: "DolomanPavljenko", sans-serif;
         font-size: 24px;
-        flex-grow: 1;
-        text-align: left;
+        margin-left: 0;
     }
-    .description.four{
+    .description.four {
+        margin-left: 0;
     }
-    .description.five{
-    }
+
 
 
     .dresscode {
@@ -368,11 +385,20 @@ margin-left: 0;
         top: -20px;
         right: 163px;
     }
+
+    .program {
+        max-width: 350px;
+    }
+
+    .timeline {
+
+        max-width: 350px;
+    }
     .time {
         font-size: 36px;
     }
     .event {
-        width: 82%;
+
     }
 
     .dresscode-info-text {
@@ -385,6 +411,7 @@ margin-left: 0;
     .organizer-title {
         font-size: 33px;
     }
+
 
     .organizer-text {
         font-size: 24px;
@@ -402,6 +429,10 @@ margin-left: 0;
 
     .presence-text {
         font-size: 24px;
+    }
+
+    .wedding-form {
+        max-width: 350px;
     }
 }
 @media (max-width: 321px) {
@@ -465,22 +496,27 @@ margin-left: 0;
     }
     .time {
         font-size: 28px;
-        width: 45px;
+    }
+
+    .program {
+        max-width: 300px;
+    }
+
+    .timeline {
+
+        max-width: 300px;
     }
 
     .timeline::before {
         top: 17px;
-        height: 74%;
+        height: 80%;
     }
     .dot {
-        left: 46.5%;
+        left: 50%;
     }
     .event {
-        width: 110%;
-        margin-left: 20px;
     }
     .time.four {
-        margin-left: 10px;
     }
 
     .dresscode-info-text {
@@ -510,5 +546,10 @@ margin-left: 0;
 
     .presence-text {
         font-size: 22px;
+    }
+
+    .wedding-form {
+       width: 280px;
+        box-sizing: border-box;
     }
 }
