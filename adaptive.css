@@ -1,5 +1,5 @@
 
-@media (max-width: 426px) {
+@media (max-width: 560px) {
     .container {
         max-width: 400px;
         margin: 0 auto;
@@ -27,16 +27,17 @@
     }
     .main .main-info h1{
         font-size: 30px;
-        margin: 214px 0 70px -134px;
+        margin: 214px 0 70px 0;
         letter-spacing: 5px;
     }
     .main-image-left {
         top: -190px;
-        left: 233px;
+        left: 95px;
     }
     .main-image-right {
         top: -72px;
-        right: -5px;
+        right: 0px;
+        z-index: -1;
     }
     .main-image-left img {
         width: 160px;

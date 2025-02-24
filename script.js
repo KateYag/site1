@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     function applyStyles() {
         const letters = document.querySelectorAll(".wave-text .letter");
-        const isMobile = window.matchMedia("(max-width: 500px)").matches; // Проверяем мобильный экран
+        const isMobile = window.matchMedia("(max-width: 560px)").matches; // Проверяем мобильный экран
 
         const stylesDesktop = [
             { x: "0vw", y: "-3vw", angle: "8deg" },
