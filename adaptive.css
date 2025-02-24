@@ -1,4 +1,956 @@
+@media (max-width: 1444px) {
+    .container {
+        max-width: 1420px;
+        margin: 0 auto;
+    }
+    .wave-text {
+        font-size: 11vw;
+        padding-top: 100px;
+        padding-left: 0;
 
+    }
+
+    .name {
+        font-size: 120px;
+        margin-bottom: 40px;
+        margin-top: 100px;
+    }
+
+    .main .main-info {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .main .main-info p{
+        font-size: 48px;
+    }
+    .main .main-info h1{
+        font-size: 85px;
+        margin: 214px 0 70px 0;
+        letter-spacing: 5px;
+    }
+    .main-image-left {
+        top: -190px;
+        left: 95px;
+    }
+    .main-image-right {
+        top: -72px;
+        right: 0px;
+        z-index: -1;
+    }
+    .main-image-left img {
+        width: 300px;
+    }
+    .main-image-right img {
+        width: 200px;
+    }
+    .main .main-info .main-image-left p {
+        font-size: 36px;
+        position: absolute;
+        top: -18px;
+        left: 310px;
+        rotate: -12deg;
+        font-weight: normal;
+        display: inline-block;
+        letter-spacing: 0;
+    }
+    .main .main-info .main-image-right p {
+        font-size: 36px;
+        top: 203px;
+        font-weight: normal;
+        display: inline-block;
+        left: -178px;
+        rotate: -7deg;
+        letter-spacing: 0;
+    }
+    .location {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .location .container {
+        flex-direction: column;
+    }
+
+    .location-info {
+        max-width: 1420px;
+    }
+    .location-info h3{
+        font-size: 56px;
+        text-align: center;
+    }
+    .location-info h4{
+        font-size: 36px;
+        text-align: center;
+    }
+    .location-info p{
+        font-size: 48px;
+        text-align: center;
+    }
+    .location-info a {
+        font-size: 20px;
+        margin-left: 30px;
+        position: relative;
+        display: inline-block;
+    }
+    .location-images .butilka {
+        display: none;
+    }
+    .location-images .bokal1 {
+        width: 65px;
+        top: -26px;
+        right: -42px;
+    }
+    .location-images .bokal2 {
+        width: 65px;
+        top: -20px;
+        right: 193px;
+    }
+    .program {
+        width: 1420px;
+        margin: 0 auto;
+    }
+    .program .wave{
+        position: absolute;
+        z-index: -1;
+        left: 10%;
+    }
+
+
+    .wave-text {
+        padding-top: 19px;
+    }
+    .program .wave-text.two, .wave-text.three {
+        margin-top: -64px;
+    }
+    .program-title {
+        font-size: 56px;
+        margin-top: 45px;
+    }
+    .timeline {
+        display: grid;
+        gap: 20px;
+        max-width: 400px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .timeline::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 15px;
+        width: 2px;
+        height: 79%;
+        background-color: #cd050f;
+        transform: translateX(-50%);
+    }
+    .event {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        gap: 20px;
+    }
+    .description {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+    }
+    .time {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .time.first {
+        margin-left: 0;
+    }
+    .time.second {
+        margin-left: 0;
+    }
+    .time.three {
+        margin-left: 0;
+    }
+    .time.four {
+        margin-left: 0;
+    }
+    .dot {
+        width: 14px;
+        height: 14px;
+        background-color: #cd050f;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+    .description {
+        font-size: 24px;
+        margin-left: 0;
+    }
+    .description.four {
+        margin-left: 0;
+    }
+
+
+
+    .dresscode-info {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .dresscode-info-text {
+        font-size: 48px;
+        max-width: 655px;
+    }
+    .dresscode-title {
+        font-size: 56px;
+    }
+
+    .organizer {
+        padding-top: 30px;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+    .organizer-text {
+        font-size: 48px;
+        margin-bottom: 50px;
+        text-align: left;
+    }
+    .organizer-title {
+        font-size: 56px;
+        margin-bottom: 20px;
+    }
+
+    .organizer-name {
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+    .organizer a {
+        padding: 10px;
+        font-size: 30px;
+        margin: 0;
+    }
+    .wedding-form .des {
+        font-size: 20px;
+    }
+
+    .wishes {
+        padding-bottom: 100px;
+    }
+    .wishes-title {
+        font-size: 56px;
+        margin-bottom: 20px;
+    }
+
+    .wishes-text {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .presence {
+        padding-bottom: 30px;
+    }
+    .presence .container {
+        max-width: 1420px;
+    }
+    .presence-title {
+        font-size: 56px;
+        margin-bottom: 20px;
+    }
+    .presence-text {
+        font-size: 48px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+
+
+
+    .wedding-form {
+        font-size: 28px;
+
+    }
+
+    .wedding-form {
+        input[type="text"], textarea {
+
+            margin-top: 15px;
+        }
+    }
+    .timout-title {
+        font-size: 56px;
+    }
+
+    #countdown {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+    .time-box span {
+        font-size: 48px;
+    }
+
+}
+@media (max-width: 1024px) {
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .wave-text {
+        font-size: 11vw;
+        padding-top: 100px;
+        padding-left: 0;
+
+    }
+
+    .name {
+        font-size: 59px;
+        margin-bottom: 40px;
+        margin-top: 100px;
+    }
+
+    .main .main-info {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .main .main-info p{
+        font-size: 30px;
+    }
+    .main .main-info h1{
+        font-size: 30px;
+        margin: 214px 0 70px 0;
+        letter-spacing: 5px;
+    }
+    .main-image-left {
+        top: -190px;
+        left: 95px;
+    }
+    .main-image-right {
+        top: -72px;
+        right: 0px;
+        z-index: -1;
+    }
+    .main-image-left img {
+        width: 160px;
+    }
+    .main-image-right img {
+        width: 110px;
+    }
+    .main .main-info .main-image-left p {
+        font-size: 28px;
+        position: absolute;
+        top: -18px;
+        left: 164px;
+        rotate: -12deg;
+        font-weight: normal;
+        display: inline-block;
+        letter-spacing: 0;
+    }
+    .main .main-info .main-image-right p {
+        font-size: 28px;
+        top: 127px;
+        font-weight: normal;
+        display: inline-block;
+        left: -147px;
+        rotate: -7deg;
+        letter-spacing: 0;
+    }
+    .location {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .location .container {
+        flex-direction: column;
+    }
+
+    .location-info {
+        max-width: 1000px;
+    }
+    .location-info h3{
+        font-size: 44px;
+        text-align: center;
+    }
+    .location-info h4{
+        font-size: 28px;
+        text-align: center;
+    }
+    .location-info p{
+        font-size: 30px;
+        text-align: center;
+    }
+    .location-info a {
+        font-size: 20px;
+        margin-left: 30px;
+        position: relative;
+        display: inline-block;
+    }
+    .location-images .butilka {
+        display: none;
+    }
+    .location-images .bokal1 {
+        width: 65px;
+        top: -26px;
+        right: -42px;
+    }
+    .location-images .bokal2 {
+        width: 65px;
+        top: -20px;
+        right: 193px;
+    }
+    .program {
+        /*width: 400px;*/
+        width: 400px;
+        margin: 0 auto;
+    }
+    .program .wave{
+        display: none;
+    }
+    .program .wave-text.two, .wave-text.three {
+        margin-top: -64px;
+    }
+    .program-title {
+        font-size: 33px;
+        margin-top: 45px;
+    }
+    .timeline {
+        display: grid;
+        gap: 20px;
+        max-width: 400px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .timeline::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 15px;
+        width: 2px;
+        height: 79%;
+        background-color: #cd050f;
+        transform: translateX(-50%);
+    }
+    .event {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        gap: 20px;
+    }
+    .description {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .time {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .time {
+        font-size: 30px;
+        font-weight: normal;
+    }
+    .time.first {
+        margin-left: 0;
+    }
+    .time.second {
+        margin-left: 0;
+    }
+    .time.three {
+        margin-left: 0;
+    }
+    .time.four {
+        margin-left: 0;
+    }
+    .dot {
+        width: 14px;
+        height: 14px;
+        background-color: #cd050f;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+    .description {
+        font-size: 24px;
+        margin-left: 0;
+    }
+    .description.four {
+        margin-left: 0;
+    }
+
+
+
+    .dresscode {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .dresscode-title {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+    .dresscode-info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .dresscode-info-text {
+        font-size: 30px;
+        text-align: center;
+    }
+    .dresscode-info-image {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .heart1, .heart2 {
+        width: 50px;
+        height: 50px;
+    }
+    .heart3 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .heart-wrapper1, .heart-wrapper2,
+    .heart-wrapper3 {
+        width: 70px;
+        height: 70px;
+
+
+    }
+
+
+    .organizer {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .organizer-text {
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .organizer-title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .organizer-name {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .organizer a {
+        padding: 10px;
+        font-size: 22px;
+        margin: 0;
+    }
+    .wedding-form .des {
+        font-size: 20px;
+    }
+
+    .wishes {
+        padding-bottom: 100px;
+    }
+    .wishes-title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .wishes-text {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .presence {
+        padding-bottom: 30px;
+    }
+    .presence .container{
+        max-width: 400px;
+    }
+    .presence-title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .presence-text {
+        font-size: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+
+
+
+    .wedding-form {
+        font-size: 28px;
+
+    }
+
+    .wedding-form {
+        input[type="text"], textarea {
+
+            margin-top: 15px;
+        }
+    }
+    .timout-title {
+        font-size: 36px;
+    }
+
+    #countdown {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+    .time-box span {
+        font-size: 30px;
+    }
+
+}
+@media (max-width: 769px) {
+    .container {
+        max-width: 749px;
+        margin: 0 auto;
+    }
+    .wave-text {
+        font-size: 11vw;
+        padding-top: 100px;
+        padding-left: 0;
+
+    }
+
+    .name {
+        font-size: 59px;
+        margin-bottom: 40px;
+        margin-top: 100px;
+    }
+
+    .main .main-info {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .main .main-info p{
+        font-size: 30px;
+    }
+    .main .main-info h1{
+        font-size: 30px;
+        margin: 214px 0 70px 0;
+        letter-spacing: 5px;
+    }
+    .main-image-left {
+        top: -190px;
+        left: 95px;
+    }
+    .main-image-right {
+        top: -72px;
+        right: 0px;
+        z-index: -1;
+    }
+    .main-image-left img {
+        width: 160px;
+    }
+    .main-image-right img {
+        width: 110px;
+    }
+    .main .main-info .main-image-left p {
+        font-size: 28px;
+        position: absolute;
+        top: -18px;
+        left: 164px;
+        rotate: -12deg;
+        font-weight: normal;
+        display: inline-block;
+        letter-spacing: 0;
+    }
+    .main .main-info .main-image-right p {
+        font-size: 28px;
+        top: 127px;
+        font-weight: normal;
+        display: inline-block;
+        left: -147px;
+        rotate: -7deg;
+        letter-spacing: 0;
+    }
+    .location {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .location .container {
+        flex-direction: column;
+    }
+
+    .location-info {
+        max-width: 749px;
+    }
+    .location-info h3{
+        font-size: 44px;
+        text-align: center;
+    }
+    .location-info h4{
+        font-size: 28px;
+        text-align: center;
+    }
+    .location-info p{
+        font-size: 30px;
+        text-align: center;
+    }
+    .location-info a {
+        font-size: 20px;
+        margin-left: 30px;
+        position: relative;
+        display: inline-block;
+    }
+    .location-images .butilka {
+        display: none;
+    }
+    .location-images .bokal1 {
+        width: 65px;
+        top: -26px;
+        right: -42px;
+    }
+    .location-images .bokal2 {
+        width: 65px;
+        top: -20px;
+        right: 193px;
+    }
+    .program {
+        /*width: 400px;*/
+        width: 400px;
+        margin: 0 auto;
+    }
+    .program .wave{
+        display: none;
+    }
+    .program .wave-text.two, .wave-text.three {
+        margin-top: -64px;
+    }
+    .program-title {
+        font-size: 33px;
+        margin-top: 45px;
+    }
+    .timeline {
+        display: grid;
+        gap: 20px;
+        max-width: 400px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .timeline::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 15px;
+        width: 2px;
+        height: 79%;
+        background-color: #cd050f;
+        transform: translateX(-50%);
+    }
+    .event {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        gap: 20px;
+    }
+    .description {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .time {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .time {
+        font-size: 30px;
+        font-weight: normal;
+    }
+    .time.first {
+        margin-left: 0;
+    }
+    .time.second {
+        margin-left: 0;
+    }
+    .time.three {
+        margin-left: 0;
+    }
+    .time.four {
+        margin-left: 0;
+    }
+    .dot {
+        width: 14px;
+        height: 14px;
+        background-color: #cd050f;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+    .description {
+        font-size: 24px;
+        margin-left: 0;
+    }
+    .description.four {
+        margin-left: 0;
+    }
+
+
+
+    .dresscode {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .dresscode-title {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+    .dresscode-info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .dresscode-info-text {
+        font-size: 30px;
+        text-align: center;
+    }
+    .dresscode-info-image {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .heart1, .heart2 {
+        width: 50px;
+        height: 50px;
+    }
+    .heart3 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .heart-wrapper1, .heart-wrapper2,
+    .heart-wrapper3 {
+        width: 70px;
+        height: 70px;
+
+
+    }
+
+
+    .organizer {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .organizer-text {
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .organizer-title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .organizer-name {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .organizer a {
+        padding: 10px;
+        font-size: 22px;
+        margin: 0;
+    }
+    .wedding-form .des {
+        font-size: 20px;
+    }
+
+    .wishes {
+        padding-bottom: 100px;
+    }
+    .wishes-title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .wishes-text {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .presence {
+        padding-bottom: 30px;
+    }
+    .presence .container{
+        max-width: 400px;
+    }
+    .presence-title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .presence-text {
+        font-size: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+
+
+
+    .wedding-form {
+        font-size: 28px;
+
+    }
+
+    .wedding-form {
+        input[type="text"], textarea {
+
+            margin-top: 15px;
+        }
+    }
+    .timout-title {
+        font-size: 36px;
+    }
+
+    #countdown {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+    .time-box span {
+        font-size: 30px;
+    }
+
+}
 @media (max-width: 560px) {
     .container {
         max-width: 400px;

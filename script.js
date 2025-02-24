@@ -39,6 +39,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 letter.style.setProperty("--y", selectedStyles[index].y);
                 letter.style.setProperty("--angle", selectedStyles[index].angle);
             }
+
+            letter.style.opacity = "0";
+            letter.style.transform = `translate(${selectedStyles[index].x}, ${selectedStyles[index].y}) rotate(${selectedStyles[index].angle})`;
+            letter.style.animation = `waveFadeIn 1s ease-out forwards`;
+            letter.style.animationDelay = `${index * 0.1}s`; // Добавляем задержку для эффекта волны
+
         });
     }
 
@@ -115,3 +121,27 @@ function startCountdown(targetDate) {
 // Устанавливаем дату окончания
 const targetDate = new Date("August 7, 2025 12:00:00").getTime();
 startCountdown(targetDate);
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const hiddenElements = document.querySelectorAll(".hidden");
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+
+    hiddenElements.forEach(element => observer.observe(element));
+});
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const titleSection = document.querySelector(".fade-in");
+    titleSection.classList.add("show");
+});
+
