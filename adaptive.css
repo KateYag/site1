@@ -97,11 +97,13 @@
         display: none;
     }
     .location-images .bokal1 {
+        display: block;
         width: 65px;
         top: -26px;
         right: -42px;
     }
     .location-images .bokal2 {
+        display: block;
         width: 65px;
         top: -20px;
         right: 193px;
@@ -290,7 +292,7 @@
     #countdown {
         display: flex;
         justify-content: center;
-        gap: 10px;
+        gap: 0;
     }
 
 
@@ -398,11 +400,13 @@
         display: none;
     }
     .location-images .bokal1 {
+        display: block;
         width: 65px;
         top: -26px;
         right: -42px;
     }
     .location-images .bokal2 {
+        display: block;
         width: 65px;
         top: -20px;
         right: 193px;
@@ -616,7 +620,7 @@
     #countdown {
         display: flex;
         justify-content: center;
-        gap: 10px;
+        gap: 0;
     }
 
 
@@ -724,11 +728,13 @@
         display: none;
     }
     .location-images .bokal1 {
+        display: block;
         width: 65px;
         top: -26px;
         right: -42px;
     }
     .location-images .bokal2 {
+        display: block;
         width: 65px;
         top: -20px;
         right: 193px;
@@ -942,7 +948,7 @@
     #countdown {
         display: flex;
         justify-content: center;
-        gap: 10px;
+        gap: 0;
     }
 
 
@@ -1046,11 +1052,13 @@
         display: none;
     }
     .location-images .bokal1 {
+        display: block;
         width: 65px;
         top: -26px;
         right: -42px;
     }
     .location-images .bokal2 {
+        display: block;
         width: 65px;
         top: -20px;
         right: 193px;
@@ -1274,7 +1282,7 @@ margin-left: 0;
     #countdown {
         display: flex;
         justify-content: center;
-        gap: 10px;
+        gap: 0;
     }
 
 
@@ -1333,6 +1341,7 @@ margin-left: 0;
 
 
     .location-images .bokal2 {
+        display: block;
         width: 56px;
         top: -20px;
         right: 163px;
@@ -1392,14 +1401,18 @@ margin-left: 0;
         max-width: 300px;
         margin: 0 auto;
     }
+
+
     .main-image-left img {
         width: 125px;
     }
+    .main .container{
 
+    }
     .main .main-info .main-image-left p {
         font-size: 20px;
         top: -18px;
-        left: 142px;
+        left: 131px;
     }
     .main .main-info .main-image-right p {
         font-size: 20px;
@@ -1442,6 +1455,7 @@ margin-left: 0;
     }
 
     .location-images .bokal2 {
+        display: block;
         width: 56px;
         top: -20px;
         right: 163px;
